@@ -1,0 +1,20 @@
+#ignore build files and program output
+/algorithm/obj
+/algorithm/code
+/testcase_generator/qaoa_gen
+/testcase_generator/qke_gen
+
+#ignore result files
+*.txt
+!/testcases
+!/testcases/**/*.txt
+!/testcases/**/**/*.txt
+*.png
+
+#ignore Editor Settings
+/.vscode
+/algorithm/.vscode
+
+#pycache and python compiled files
+/testcases/__pycache__/
+*.pyc

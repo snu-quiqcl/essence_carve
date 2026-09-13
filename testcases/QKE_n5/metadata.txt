@@ -1,0 +1,14 @@
+num_samples,10
+num_qubits,5
+num_kernel_circuits,100
+random_seed,5489
+distribution,uniform[0,2*pi]
+pair_mode,full_cartesian
+circuit_definition,V(x,x')=H^n U^dagger(x) U(x') H^n
+observable,Pi_0=|0^n><0^n|
+phase_gate,u1(theta) equivalent to RZ(theta) up to global phase
+feature_map,U(x)=exp(i sum_i x_i Z_i + i sum_j (pi-x_j)(pi-x_{j+1}) Z_j Z_{j+1})
+single_phase,x_i
+zz_phase,(pi-x_j)*(pi-x_{j+1})
+zz_connectivity,1d_nearest_neighbor_chain
+zz_pair_count,4

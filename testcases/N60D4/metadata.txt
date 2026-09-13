@@ -1,0 +1,11 @@
+generator,E3LIN2
+num_qubits,60
+degree,4
+num_gammas,31
+num_circuits,31
+random_seed,19
+num_clauses,80
+gamma_min,0
+gamma_max,pi/2
+observable,Pauli ZZZ clause sum
+ansatz,H^n clause phases then SX^n
